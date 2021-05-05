@@ -1,5 +1,11 @@
-import requests
+# Ako nemate flask onda sljedeća naredba u terminalu:
+# pip install -r requirements.txt 
+# Ako javlja grešku za requests onda sljedeća naredba u terminalu::
+# pip3 install requests 
+
 from flask import Flask, render_template
+import json
+import requests
 
 app = Flask(__name__)
 
